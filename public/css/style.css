@@ -97,6 +97,21 @@ footer
 {
   color: #ffff;
 }
+#myprofile:hover
+{
+  animation: rotateProfile 5s;
+}
+#student:hover
+{
+  animation: rotateProfile 5s;
+}
+#coding:hover
+{
+  animation: rotateProfile 5s;
+}
+@keyframes rotateProfile {
+  100% {transform: rotate(90deg);}
+}
 @media only screen and (max-width: 962px) {
   #navbarNavAltMarkup {
     text-align: center;
