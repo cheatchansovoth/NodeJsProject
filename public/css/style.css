@@ -1,0 +1,120 @@
+body
+{
+  background-image: url("/image/Background-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#profile
+{
+  color:white;
+  text-align: center;
+  margin-right: 350px;
+}
+#academic
+{
+margin-left: 300px;
+padding: 50px;
+}
+.body-content-1 .body-content-2 .body-content-3
+{
+  height: 30vh;
+  margin-left: 100px;
+}
+.body-content-1 h5
+{
+    color:white;
+    letter-spacing:2px;
+}
+.body-content-1 img
+{
+  height: 200px;
+  border-radius: 50%;
+}
+.body-content-1 .info-details
+{
+  margin-top: 2rem;
+}
+.body-content-1 .container
+{
+  margin-top: 13%;
+}
+.body-content-2 img
+{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin-left: 10%;
+}
+.body-content-2 .info-details
+{
+  margin-left: 100px;
+}
+.body-content-2
+{
+  color:white;
+  letter-spacing:2px;
+}
+.body-content-3
+{
+  color:white;
+  letter-spacing:2px;
+}
+.body-content-3 img
+{
+  width: 210px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+#header
+{
+  color:red;
+}
+#logo
+{
+  font-family: 'Island Moments', cursive;
+  font-size: 2.5rem;
+  margin-left: 10%
+}
+.navbar
+{
+  line-height: 2rem;
+}
+.navbar-nav
+{
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+}
+.navbar-nav a
+{
+  margin-left: 10px;
+}
+footer
+{
+  text-align: center;
+}
+.footer i
+{
+  color: #ffff;
+}
+@media only screen and (max-width: 962px) {
+  #navbarNavAltMarkup {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 739px) {
+  #academic
+   {
+    margin-left: 20px;
+        margin-top:30%;
+    }
+    .info-details
+    {
+        margin-top: 2rem;
+    }
+    #profile
+    {
+      margin-right : 100px;
+    }
+
+}
